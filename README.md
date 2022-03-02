@@ -15,10 +15,8 @@ Suas apostas são registradas no sistema, caso este ganhe, recebe o dinheiro do 
 - Java
 - Framework Vraptor4
 - Postgreesql
-
 ## Tecnologias utilizadas no front-end
-- Html
-- Css
+- Html/Css/JS
 
 # Sobre o autor
 
