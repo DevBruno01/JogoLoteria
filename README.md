@@ -8,6 +8,10 @@ Projeto do curso online de VRaptor 4
 ##Layout
 
 
+##Tecnologias utilizadas no back-end:
+Java
+Framework Vraptor4
+banco de dados: Postgree Sql
 
 #Sobre o autor
 
