@@ -1,19 +1,19 @@
-#Jogo Loteria
+# Jogo Loteria
 
 Projeto do curso online de VRaptor 4
 
-#Sobre o projeto
+# Sobre o projeto
 
 
-##Layout
+## Layout
 
 
-##Tecnologias utilizadas no back-end
+## Tecnologias utilizadas no back-end
 
 - Java
 - Framework Vraptor4
 - Postgreesql
 
-#Sobre o autor
+# Sobre o autor
 
 
