@@ -35,6 +35,7 @@ public class CadastrarController {
 		validator.onErrorRedirectTo(this).cadastrar();
 		usuarioDao.insertOrUpdate(usuario);
 		result.redirectTo(DashboardController.class).dashboard();
+		
 	}
 	
 	
