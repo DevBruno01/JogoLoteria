@@ -18,6 +18,12 @@ Suas apostas são registradas no sistema, caso este ganhe, recebe o dinheiro do 
 ## Tecnologias utilizadas no front-end
 - Html/Css/JS
 
+##Tecnologias necessárias para rodar o projeto
+
+- Maven
+- Java
+- Servidor apache Tomcat
+
 # Sobre o autor
 
 Bruno Brocanelli
