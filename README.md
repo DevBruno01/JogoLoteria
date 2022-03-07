@@ -14,7 +14,7 @@ Suas apostas são registradas no sistema, caso este ganhe, recebe o dinheiro do 
 
 - Java
 - Framework Vraptor4
-- Postgreesql
+- Postgresql
 ## Tecnologias utilizadas no front-end
 - Html/Css/JS
 
@@ -23,7 +23,7 @@ Suas apostas são registradas no sistema, caso este ganhe, recebe o dinheiro do 
 - Maven
 - Java
 - Servidor apache Tomcat
-
+- Postgresql
 # Sobre o autor
 
 Bruno Brocanelli
