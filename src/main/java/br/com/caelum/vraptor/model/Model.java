@@ -1,3 +1,4 @@
+
 package br.com.caelum.vraptor.model;
 import java.text.SimpleDateFormat;
 import java.util.Date;

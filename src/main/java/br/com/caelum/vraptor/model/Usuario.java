@@ -1,6 +1,7 @@
 package br.com.caelum.vraptor.model;
 
 import javax.persistence.Entity;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.Email;
@@ -17,6 +18,9 @@ public class Usuario extends Model{
 	
 	@NotEmpty(message = "{usuario.senha.embranco}") @Size(min = 6, max = 20, message="{usuario.senha.size}")
 	private String senha;
+	
+	@NotNull(message = "{usuario.confirmaSenha.embranco}") @Size(min = 6, max = 20, message="{usuario.confirmaSenha.size}")
+	private String confirmaSenha;
 	
 	public String getNome() {
 		return nome;
@@ -36,5 +40,22 @@ public class Usuario extends Model{
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
+	public String getConfirmaSenha() {
+		return confirmaSenha;
+	}
+	public void setConfirmaSenha(String confirmaSenha) {
+		this.confirmaSenha = confirmaSenha;
+	}
 	
+	public boolean vericaSenhas(){
+		
+		boolean verifica = this.confirmaSenha.equals(this.senha);
+		if(verifica == true) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+
 }

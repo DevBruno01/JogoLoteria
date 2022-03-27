@@ -29,13 +29,13 @@ public class CadastrarController {
 	
 	@IncludeParameters
 	@Post("salvausuario")
-	public void salvaUsuario(@Valid Usuario usuario, String confirmaSenha) {
-		boolean asSenhasSaoIguais = confirmaSenha.equals(usuario.getSenha());
-		validator.addIf(!asSenhasSaoIguais, new SimpleMessage("confirmaSenha", "A confirmação esta diferente da senha"));
+	public void salvaUsuario(@Valid Usuario usuario) {
+		validator.onErrorRedirectTo(this).cadastrar();
+		boolean asSenhasSaoIguais = usuario.vericaSenhas();
+		validator.addIf(!asSenhasSaoIguais, new SimpleMessage("usuario.confirmaSenha", "A confirmação esta diferente da senha"));
 		validator.onErrorRedirectTo(this).cadastrar();
 		usuarioDao.insertOrUpdate(usuario);
 		result.redirectTo(DashboardController.class).dashboard();
-		
 	}
 	
 	
