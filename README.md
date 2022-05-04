@@ -8,8 +8,8 @@ A aplicação consiste em um site Web na qual pessoas realizam apostas de loteri
 Suas apostas são registradas no sistema, caso este ganhe, recebe o dinheiro do prêmio.
 
 ## Layout
-![Web 1](https://github.com/DevBruno01/Assets_JogoLoteria/blob/main/cadastrar.png)
-![Web 2](https://github.com/DevBruno01/Assets_JogoLoteria/blob/main/dashboard.png)
+![Web 1](https://github.com/DevBruno01/Assets/blob/main/cadastrar.png)
+![Web 2](https://github.com/DevBruno01/Assets/blob/main/dashboard.png)
 ## Tecnologias utilizadas no back-end
 
 - Java
